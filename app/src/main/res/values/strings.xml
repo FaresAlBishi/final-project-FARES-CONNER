@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Final Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playerName">Your Username</string>
+    <string name="EMP_ID">ID</string>
+    <string name="EMP_AGE">AGE</string>
+    <string name="EMP_SALARY">SALARY</string>
+    <string name="EMP_NAME">NAME</string>
+    <string name="EMP_EMAIL">EMAIL</string>
+    <string name="EMP_JOB">JOB</string>
+
+</resources>

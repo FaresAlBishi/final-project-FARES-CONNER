@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav" app:startDestination="@id/id_page">
+
+    <fragment android:id="@+id/id_page" android:name="com.example.finalproject.fragments.id_page" android:label="fragment_id_page"
+              tools:layout="@layout/fragment_id_page">
+        <action android:id="@+id/action_id_page_to_id_content" app:destination="@+id/id_content"/>
+    </fragment>
+    <fragment android:id="@+id/id_content" android:name="com.example.finalproject.fragments.id_content"
+              android:label="fragment_id_content" tools:layout="@layout/fragment_id_content">
+        <action android:id="@+id/action_id_content_to_id_end" app:destination="@id/id_end"/>
+    </fragment>
+    <fragment android:id="@+id/id_end" android:name="com.example.finalproject.fragments.id_end" android:label="fragment_id_end"
+              tools:layout="@layout/fragment_id_end">
+        <action android:id="@+id/action_id_end_to_id_content2" app:destination="@id/id_content"/>
+        <action android:id="@+id/action_id_end_to_id_content3" app:destination="@id/id_content"/>
+        <action android:id="@+id/action_id_end_to_id_content" app:destination="@id/id_content"/>
+    </fragment>
+</navigation>
